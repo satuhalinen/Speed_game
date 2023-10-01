@@ -1,0 +1,146 @@
+.startClass {
+  border-radius: 20%;
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  height: 100px;
+  width: 100px;
+}
+
+body {
+  background: url("pexels-julia-volk-7099647.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  cursor: url(flake-2029369_1920.png), auto;
+  background-position: center;
+}
+
+div {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#button2.active {
+  background-image: url("berry-2271_1920.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#button3.active {
+  background-image: url("strawberries-3565102_1280.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#button4.active {
+  background-image: url("cloudberry-663456_1920.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#button5.active {
+  background-image: url("lingonberry-5948373_1920.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#button6.active {
+  background-image: url("raspberry-2635886_1920.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(173, 216, 230, 0.5);
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  pointer-events: none;
+  border: none;
+}
+
+.circles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.modal {
+  background-color: lightblue;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 20%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+.overlay.visible {
+  display: flex;
+}
+
+.overlay {
+  background-color: rgba(51, 51, 51, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  margin: 0px;
+}
+
+.startClass.invisible {
+  display: none;
+}
+
+.endClass.visible {
+  display: inline-block;
+}
+
+.endClass {
+  border-radius: 20%;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  height: 100px;
+  width: 100px;
+}
+
+.close {
+  border: none;
+  color: white;
+  background-color: rgb(53, 50, 50);
+  border-radius: 20%;
+  height: 50px;
+  width: 50px;
+}
+
+footer {
+  margin-top: 250px;
+  text-align: center;
+}

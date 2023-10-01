@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Speedgame</title>
+  </head>
+  <body>
+    <div>
+      <h1>Speed game: Freeze the berries</h1>
+      <div class="overlay">
+        <div class="modal">
+          <h2>Game over</h2>
+          <p id="advice"></p>
+          <button class="close">
+            <span class="material-symbols-outlined"> Close </span>
+          </button>
+        </div>
+      </div>
+      <p>Your berry amount: <span class="score"> 0</span></p>
+
+      <div class="circles">
+        <button class="circle" id="button2"></button>
+        <button class="circle" id="button3"></button>
+        <button class="circle" id="button4"></button>
+        <button class="circle" id="button5"></button>
+        <button class="circle" id="button6"></button>
+      </div>
+      <button class="startClass" id="startButton">Start<br />Game</button>
+      <button class="endClass" id="endButton">End<br />Game</button>
+    </div>
+    <script src="main.js"></script>
+    <footer>
+      <p>Copyright &copy; Satu Halinen 2023</p>
+    </footer>
+  </body>
+</html>
